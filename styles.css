@@ -50,10 +50,21 @@ nav ul li a:hover {
     padding: 50px 0;
 }
 
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
 .features {
-    display: flex;
-    justify-content: space-around;
     margin: 20px 0;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .feature {
@@ -61,7 +72,7 @@ nav ul li a:hover {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 30%;
+    flex: 1; /* Equal width for each feature */
     text-align: center;
 }
 
